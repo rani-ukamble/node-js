@@ -1,0 +1,9 @@
+How Node.js and Express.js Work Together
+Node.js provides the environment to run JavaScript on the server side.
+Express.js adds tools and utilities for building web servers and APIs on top of Node.js.
+
+You cannot call res.send() more than once in a single request. 
+
+
+
+

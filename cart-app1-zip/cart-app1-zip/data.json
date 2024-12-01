@@ -1,0 +1,129 @@
+{
+    "users":[
+        {
+          "email": "user1@example.com",
+          "password": "password123",
+          "createdOn": "2024-11-01T08:00:00Z",
+          "status": true
+        },
+        {
+          "email": "user2@example.com",
+          "password": "securePass456",
+          "createdOn": "2024-10-15T10:30:00Z",
+          "status": false
+        },
+        {
+          "email": "user3@example.com",
+          "password": "qwerty789",
+          "createdOn": "2024-09-25T14:45:00Z",
+          "status": true
+        },
+        {
+          "email": "user4@example.com",
+          "password": "myStrongPass001",
+          "createdOn": "2024-08-30T12:00:00Z",
+          "status": true
+        },
+        {
+          "email": "user5@example.com",
+          "password": "anotherPassword999",
+          "createdOn": "2024-11-10T09:15:00Z",
+          "status": false
+        }
+      ],
+
+    "products":[
+      {
+        "productname": "Wireless Bluetooth Headphones",
+        "cost": 59.99,
+        "category": "Electronics",
+        "mnfdate": "2024-08-10T14:00:00Z"
+      },
+      {
+        "productname": "Smartphone 5G",
+        "cost": 799.99,
+        "category": "Electronics",
+        "mnfdate": "2024-05-25T10:30:00Z"
+      },
+      {
+        "productname": "4K Ultra HD TV",
+        "cost": 999.99,
+        "category": "Electronics",
+        "mnfdate": "2024-07-12T13:45:00Z"
+      },
+      {
+        "productname": "Stainless Steel Water Bottle",
+        "cost": 19.99,
+        "category": "Home & Kitchen",
+        "mnfdate": "2024-04-03T08:00:00Z"
+      },
+      {
+        "productname": "Yoga Mat",
+        "cost": 24.99,
+        "category": "Fitness",
+        "mnfdate": "2024-06-15T09:30:00Z"
+      },
+      {
+        "productname": "Running Shoes",
+        "cost": 89.99,
+        "category": "Footwear",
+        "mnfdate": "2024-02-20T11:15:00Z"
+      },
+      {
+        "productname": "Electric Toothbrush",
+        "cost": 39.99,
+        "category": "Health & Beauty",
+        "mnfdate": "2024-01-11T16:00:00Z"
+      },
+      {
+        "productname": "Instant Coffee Maker",
+        "cost": 49.99,
+        "category": "Home Appliances",
+        "mnfdate": "2024-03-05T17:00:00Z"
+      },
+      {
+        "productname": "Leather Wallet",
+        "cost": 29.99,
+        "category": "Accessories",
+        "mnfdate": "2024-07-23T12:45:00Z"
+      },
+      {
+        "productname": "Fitness Tracker Watch",
+        "cost": 129.99,
+        "category": "Electronics",
+        "mnfdate": "2024-09-15T10:00:00Z"
+      },
+      {
+        "productname": "Electric Kettle",
+        "cost": 34.99,
+        "category": "Home Appliances",
+        "mnfdate": "2024-04-18T15:30:00Z"
+      },
+      {
+        "productname": "Wooden Dining Table Set",
+        "cost": 499.99,
+        "category": "Furniture",
+        "mnfdate": "2024-06-01T14:30:00Z"
+      },
+      {
+        "productname": "Smart Thermostat",
+        "cost": 249.99,
+        "category": "Home Automation",
+        "mnfdate": "2024-05-10T10:15:00Z"
+      },
+      {
+        "productname": "Designer Sunglasses",
+        "cost": 99.99,
+        "category": "Accessories",
+        "mnfdate": "2024-08-15T13:00:00Z"
+      },
+      {
+        "productname": "Camping Tent",
+        "cost": 159.99,
+        "category": "Outdoor Gear",
+        "mnfdate": "2024-03-22T11:00:00Z"
+      }
+    ]
+    
+      
+}

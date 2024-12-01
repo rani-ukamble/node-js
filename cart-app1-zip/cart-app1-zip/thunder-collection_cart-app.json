@@ -1,0 +1,98 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "cart-app",
+    "collectionId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+    "dateExported": "2024-11-26T06:41:23.973Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ff9d812e-c647-42a7-861e-93cfc53a840c",
+            "colId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+            "containerId": "",
+            "name": "Test User Api",
+            "url": "http://127.0.0.1:4949/api/user/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-26T04:29:24.432Z",
+            "modified": "2024-11-26T04:31:32.505Z",
+            "headers": []
+        },
+        {
+            "_id": "edecac83-1beb-4c92-b8b5-bda2095d9bd2",
+            "colId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+            "containerId": "",
+            "name": "Insert multiple Users",
+            "url": "http://127.0.0.1:4949/api/user/mockusers",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-26T04:46:59.202Z",
+            "modified": "2024-11-26T04:48:07.395Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"users\":[\n        {\n          \"email\": \"user1@example.com\",\n          \"password\": \"password123\",\n          \"createdOn\": \"2024-11-01T08:00:00Z\",\n          \"status\": true\n        },\n        {\n          \"email\": \"user2@example.com\",\n          \"password\": \"securePass456\",\n          \"createdOn\": \"2024-10-15T10:30:00Z\",\n          \"status\": false\n        },\n        {\n          \"email\": \"user3@example.com\",\n          \"password\": \"qwerty789\",\n          \"createdOn\": \"2024-09-25T14:45:00Z\",\n          \"status\": true\n        },\n        {\n          \"email\": \"user4@example.com\",\n          \"password\": \"myStrongPass001\",\n          \"createdOn\": \"2024-08-30T12:00:00Z\",\n          \"status\": true\n        },\n        {\n          \"email\": \"user5@example.com\",\n          \"password\": \"anotherPassword999\",\n          \"createdOn\": \"2024-11-10T09:15:00Z\",\n          \"status\": false\n        }\n      ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1cfca1b9-7146-491d-a390-80da04179f2e",
+            "colId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+            "containerId": "",
+            "name": "Test Product Api",
+            "url": "http://localhost:4949/api/product",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-11-26T04:59:23.401Z",
+            "modified": "2024-11-26T05:00:41.686Z",
+            "headers": []
+        },
+        {
+            "_id": "8134add5-68c2-48c4-90d1-f216674c022a",
+            "colId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+            "containerId": "",
+            "name": "Insert multiple products",
+            "url": "http://localhost:4949/api/product/mockproducts",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-26T05:24:28.910Z",
+            "modified": "2024-11-26T05:27:41.849Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"data\":[\n      {\n        \"productname\": \"Wireless Bluetooth Headphones\",\n        \"cost\": 59.99,\n        \"category\": \"Electronics\",\n        \"mnfdate\": \"2024-08-10T14:00:00Z\"\n      },\n      {\n        \"productname\": \"Smartphone 5G\",\n        \"cost\": 799.99,\n        \"category\": \"Electronics\",\n        \"mnfdate\": \"2024-05-25T10:30:00Z\"\n      },\n      {\n        \"productname\": \"4K Ultra HD TV\",\n        \"cost\": 999.99,\n        \"category\": \"Electronics\",\n        \"mnfdate\": \"2024-07-12T13:45:00Z\"\n      },\n      {\n        \"productname\": \"Stainless Steel Water Bottle\",\n        \"cost\": 19.99,\n        \"category\": \"Home & Kitchen\",\n        \"mnfdate\": \"2024-04-03T08:00:00Z\"\n      },\n      {\n        \"productname\": \"Yoga Mat\",\n        \"cost\": 24.99,\n        \"category\": \"Fitness\",\n        \"mnfdate\": \"2024-06-15T09:30:00Z\"\n      },\n      {\n        \"productname\": \"Running Shoes\",\n        \"cost\": 89.99,\n        \"category\": \"Footwear\",\n        \"mnfdate\": \"2024-02-20T11:15:00Z\"\n      },\n      {\n        \"productname\": \"Electric Toothbrush\",\n        \"cost\": 39.99,\n        \"category\": \"Health & Beauty\",\n        \"mnfdate\": \"2024-01-11T16:00:00Z\"\n      },\n      {\n        \"productname\": \"Instant Coffee Maker\",\n        \"cost\": 49.99,\n        \"category\": \"Home Appliances\",\n        \"mnfdate\": \"2024-03-05T17:00:00Z\"\n      },\n      {\n        \"productname\": \"Leather Wallet\",\n        \"cost\": 29.99,\n        \"category\": \"Accessories\",\n        \"mnfdate\": \"2024-07-23T12:45:00Z\"\n      },\n      {\n        \"productname\": \"Fitness Tracker Watch\",\n        \"cost\": 129.99,\n        \"category\": \"Electronics\",\n        \"mnfdate\": \"2024-09-15T10:00:00Z\"\n      },\n      {\n        \"productname\": \"Electric Kettle\",\n        \"cost\": 34.99,\n        \"category\": \"Home Appliances\",\n        \"mnfdate\": \"2024-04-18T15:30:00Z\"\n      },\n      {\n        \"productname\": \"Wooden Dining Table Set\",\n        \"cost\": 499.99,\n        \"category\": \"Furniture\",\n        \"mnfdate\": \"2024-06-01T14:30:00Z\"\n      },\n      {\n        \"productname\": \"Smart Thermostat\",\n        \"cost\": 249.99,\n        \"category\": \"Home Automation\",\n        \"mnfdate\": \"2024-05-10T10:15:00Z\"\n      },\n      {\n        \"productname\": \"Designer Sunglasses\",\n        \"cost\": 99.99,\n        \"category\": \"Accessories\",\n        \"mnfdate\": \"2024-08-15T13:00:00Z\"\n      },\n      {\n        \"productname\": \"Camping Tent\",\n        \"cost\": 159.99,\n        \"category\": \"Outdoor Gear\",\n        \"mnfdate\": \"2024-03-22T11:00:00Z\"\n      }\n    ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "efdae911-183f-4c88-bd78-59807bda4282",
+            "colId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+            "containerId": "",
+            "name": "Create Cart",
+            "url": "http://localhost:4949/api/cart/create",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-11-26T06:16:52.395Z",
+            "modified": "2024-11-26T06:31:43.982Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"date\":\"09-Nov-2024\",\n  \"user\":{\n    \"email\":\"user1@example.com\"\n  }, \n  \"products\":[\n    {\"_id\":\"67455c4d914cc33eeff5aa50\"},\n    {\"_id\":\"67455c4d914cc33eeff5aa54\"},\n    {\"_id\":\"67455c4d914cc33eeff5aa55\"}\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8d301c95-ff2b-4157-81cf-8ba66be82c22",
+            "colId": "46ddb749-bc55-4035-9fd8-5dbaa51125ca",
+            "containerId": "",
+            "name": "Get Cart Data",
+            "url": "http://localhost:4949/api/cart/all",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-11-26T06:39:16.949Z",
+            "modified": "2024-11-26T06:39:25.129Z",
+            "headers": []
+        }
+    ],
+    "ref": "Om948Dcbxj0REln5wxLHhXp-r5dpz3sAccPsB00k5EdqFovaSZ3LaNX7Hcg8Y7sn37O5ZoNfioG8q7Mth2pkcg"
+}
